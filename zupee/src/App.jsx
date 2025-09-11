@@ -12,6 +12,8 @@ import Ludosupremeleague from './option_pages/Ludosupremeleague';
 import SnakesAndLaddersPlus from './option_pages/SnakesAndLaddersPlus';
 import TrumpCardsMania from './option_pages/TrumpCardsMania';
 import Tnc from './Footerpages/Tnc';
+import TandC from './Footerpages/TandC';
+import Privacypolicy from './Footerpages/Privacypolicy';
 const router = createBrowserRouter([
 
   {
@@ -27,7 +29,10 @@ const router = createBrowserRouter([
       { path: "/ludo/ludo-supreme-league", element: <Ludosupremeleague /> },
       { path: "/snakes-and-ladders-plus", element: <SnakesAndLaddersPlus /> },
       { path: "/trump-cards-mania", element: <TrumpCardsMania /> },
-      { path: "/tnc-rewards-scheme", element: <Tnc/>}
+      { path: "/tnc-rewards-scheme", element: <Tnc /> },
+      { path: "/zupee-free/terms-conditions", element: <TandC /> },
+      { path: "/privacy-policy", element: <Privacypolicy /> }
+
 
 
     ]

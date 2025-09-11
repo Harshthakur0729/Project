@@ -9,13 +9,13 @@ export default function Footer() {
         {/* Info Section */}
         <div className="flex flex-col gap-2">
           <h1 className="text-2xl font-bold">Info</h1>
-          <Link to="#" className="hover:underline">
+          <Link to="/zupee-free/terms-conditions" className="hover:underline">
             Terms & Conditions
           </Link>
           <Link to="/tnc-rewards-scheme" className="hover:underline">
             Rewards Scheme: Terms & Conditions
           </Link>
-          <Link to="#" className="hover:underline">
+          <Link to="/privacy-policy" className="hover:underline">
             Privacy Policy
           </Link>
         </div>
